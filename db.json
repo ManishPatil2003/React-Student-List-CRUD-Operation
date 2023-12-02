@@ -1,14 +1,10 @@
 {
   "students": [
     {
-      "id": 1,
-      "stuname": "Sonam",
-      "email": "sonam@example.com"
-    },
-    {
-      "id": 3,
-      "stuname": "Sumit",
-      "email": "sumit@example.com"
+      "stuname": "manish",
+      "email": "dhirajpatel131225@gmail.com",
+      "phone": "7719064540",
+      "id": 1
     }
   ]
 }

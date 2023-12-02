@@ -77,6 +77,9 @@ const Edit = () => {
        <Grid item xs={12}>
         <TextField autoComplete="email" name="email" variant="outlined" required fullWidth id="email" label="Email Address" value={student.email} onChange={e => onTextFieldChange(e)} />
        </Grid>
+       <Grid item xs={12}>
+        <TextField autoComplete="phone" name="phone" variant="outlined" required fullWidth id="phone" label="Phone Number" value={student.email} onChange={e => onTextFieldChange(e)} />
+       </Grid>
       </Grid>
       <Box m={3}>
        <Button type="button" variant="contained" color="primary" fullWidth onClick={e => onFormSubmit(e)}> Update </Button>

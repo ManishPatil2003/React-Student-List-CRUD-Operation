@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/%3Chttps://manishpatil2003.github.io/React-Student-List-CRUD-Operation%3E/static/js/main.8bcfb224.chunk.js",
+    "main.js.map": "/%3Chttps://manishpatil2003.github.io/React-Student-List-CRUD-Operation%3E/static/js/main.8bcfb224.chunk.js.map",
+    "runtime-main.js": "/%3Chttps://manishpatil2003.github.io/React-Student-List-CRUD-Operation%3E/static/js/runtime-main.a96ec0df.js",
+    "runtime-main.js.map": "/%3Chttps://manishpatil2003.github.io/React-Student-List-CRUD-Operation%3E/static/js/runtime-main.a96ec0df.js.map",
+    "static/js/2.d682e3a2.chunk.js": "/%3Chttps://manishpatil2003.github.io/React-Student-List-CRUD-Operation%3E/static/js/2.d682e3a2.chunk.js",
+    "static/js/2.d682e3a2.chunk.js.map": "/%3Chttps://manishpatil2003.github.io/React-Student-List-CRUD-Operation%3E/static/js/2.d682e3a2.chunk.js.map",
+    "index.html": "/%3Chttps://manishpatil2003.github.io/React-Student-List-CRUD-Operation%3E/index.html",
+    "static/js/2.d682e3a2.chunk.js.LICENSE.txt": "/%3Chttps://manishpatil2003.github.io/React-Student-List-CRUD-Operation%3E/static/js/2.d682e3a2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a96ec0df.js",
+    "static/js/2.d682e3a2.chunk.js",
+    "static/js/main.8bcfb224.chunk.js"
+  ]
+}

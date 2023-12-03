@@ -21,12 +21,13 @@ const Edit = () => {
  const history = useHistory();
  const [student, setStudent] = useState({
   stuname: "",
-  email: ""
+  email: "",
+  phone:""
  });
  useEffect(() => {
   async function getStudent() {
    try {
-    const student = await axios.get(`http://localhost:3333/students/${id}`)
+    const student = await axios.get(`https://656b9b6fdac3630cf7284279.mockapi.io/students/${id}`)
     // console.log(student.data);
     setStudent(student.data);
    } catch (error) {
@@ -46,7 +47,7 @@ const Edit = () => {
  async function onFormSubmit(e) {
   e.preventDefault()
   try {
-   await axios.put(`http://localhost:3333/students/${id}`, student)
+   await axios.put(`https://656b9b6fdac3630cf7284279.mockapi.io/students/${id}`, student)
    history.push("/")
   } catch (error) {
    console.log("Something is Wrong");

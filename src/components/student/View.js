@@ -39,7 +39,7 @@ const View = () => {
   useEffect(() => {
     async function getStudent() {
       try {
-        const student = await axios.get(`http://localhost:3333/students/${id}`);
+        const student = await axios.get(`https://656b9b6fdac3630cf7284279.mockapi.io/students/${id}`);
         setStudent(student.data);
       } catch (error) {
         console.log("Something is Wrong");

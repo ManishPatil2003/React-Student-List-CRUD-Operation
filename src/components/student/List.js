@@ -25,7 +25,7 @@ const List = () => {
  useEffect(() => {
   async function getAllStudent() {
    try {
-    const students = await axios.get("http://localhost:3333/students")
+    const students = await axios.get("https://656b9b6fdac3630cf7284279.mockapi.io/students")
     // console.log(students.data);
     setStudents(students.data);
    } catch (error) {
@@ -36,7 +36,7 @@ const List = () => {
  }, [])
 
  const handleDelete = async id => {
-  await axios.delete(`http://localhost:3333/students/${id}`);
+  await axios.delete(`https://656b9b6fdac3630cf7284279.mockapi.io/students/${id}`);
   var newstudent = students.filter((item) => {
    // console.log(item);
    return item.id !== id;

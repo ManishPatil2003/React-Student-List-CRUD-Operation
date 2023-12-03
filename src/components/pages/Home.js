@@ -3,6 +3,9 @@ import { deepPurple, green } from '@material-ui/core/colors';
 import List from "../student/List";
 import axios from "axios";
 import { useState } from "react";
+
+
+
 const useStyles = makeStyles({
     headingColor: {
         backgroundColor: deepPurple[400],
@@ -18,7 +21,9 @@ const Home = () => {
     const classes = useStyles();
     const [student, setStudent] = useState({
         stuname: "",
-        email: ""
+        email: "",
+        phone:"",
+      
     });
     const [status, setStatus] = useState();
 
@@ -32,7 +37,7 @@ const Home = () => {
     async function onFormSubmit(e) {
         e.preventDefault()
         try {
-            await axios.post(`http://localhost:3333/students`, student)
+            await axios.post(`https://656b9b6fdac3630cf7284279.mockapi.io/students`, student )
             setStatus(true);
         } catch (error) {
             console.log("Something is Wrong");

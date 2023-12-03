@@ -57,6 +57,7 @@ const List = () => {
        <TableCell align="center" className={classes.tableHeadCell}>No</TableCell>
        <TableCell align="center" className={classes.tableHeadCell}>Name</TableCell>
        <TableCell align="center" className={classes.tableHeadCell}>Email</TableCell>
+       <TableCell align="center" className={classes.tableHeadCell}>Phone Number</TableCell>
        <TableCell align="center" className={classes.tableHeadCell}>Action</TableCell>
       </TableRow>
      </TableHead>
@@ -68,6 +69,7 @@ const List = () => {
           <TableCell align="center">{i + 1}</TableCell>
           <TableCell align="center">{student.stuname}</TableCell>
           <TableCell align="center">{student.email}</TableCell>
+          <TableCell align="center">{student.phone}</TableCell>
           <TableCell align="center">
            <Tooltip title="View">
             <IconButton><Link to={`/view/${student.id}`}><VisibilityIcon color="primary" /></Link></IconButton>
